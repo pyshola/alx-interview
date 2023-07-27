@@ -1,6 +1,5 @@
 #!/usr/bin/python
 
-
 """Algorithm to solve pascal triangle"""
 def pascal_triangle(n):
     lists = [[1]]
