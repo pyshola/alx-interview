@@ -9,7 +9,7 @@ const options = {
 request(options, function (error, response, body) {
   if (!error) {
     const characters = JSON.parse(body).characters;
-    printCharacters(characters, 0);
+    printCharacters (characters, 0);
   }
 });
 
